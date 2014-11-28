@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="app.fooblah.ppstesto.LobbyInfoActivity">
+    <item android:id="@+id/lobby_info_lock"
+          android:title="@string/lobby_info_lock"
+          android:showAsAction="never"/>
+    <item android:id="@+id/start_game"
+          android:title="@string/lobby_info_start"
+          android:showAsAction="never"/>
+</menu>

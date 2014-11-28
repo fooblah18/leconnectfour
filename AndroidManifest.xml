@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="Testo"
+    package="app.fooblah.ppstesto" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Connect Four"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="app.fooblah.ppstesto.MainActivity"
+            android:label="@string/game_type" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.fooblah.ppstesto.LobbyActivity"
+            android:label="@string/title_activity_lobby" >
+        </activity>
+        <activity
+            android:name=".LobbyInfoActivity"
+            android:label="@string/title_activity_lobby_info" >
+        </activity>
+        <activity
+            android:name=".GameActivity"
+            android:label="@string/title_activity_game" >
+        </activity>
+    </application>
+
+</manifest>

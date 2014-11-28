@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="app.fooblah.ppstesto.GameActivity">
+    <item android:id="@+id/game_quit"
+          android:title="@string/game_quit"
+          android:showAsAction="never"/>
+</menu>
